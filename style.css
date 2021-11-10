@@ -1,0 +1,162 @@
+.box{
+    background-color: #0e83cd;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+}
+.container{
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 140px;
+    display: flex;
+    justify-content: space-around;
+}
+.btn-1{
+    width: 180px;
+    height: 50px;
+    cursor: pointer;
+    position: relative;
+    background:none;
+    border: none;
+    outline: 3px solid white;
+    transition: all 0.5s;
+}
+.btn-1:hover{
+    background-color: white;
+}
+.btn-1:hover span{
+    color: #0e83cd;
+} 
+.btn-2{
+    width: 180px;
+    height: 50px;
+    cursor: pointer;
+    position: relative;
+    background:none;
+    border: none;
+    outline: 3px solid white;
+    overflow: hidden;
+}
+.button2{
+    position: absolute;
+    top: -100%;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    transition: transform 0.5s ease;
+}
+.btn-2:hover .button2{
+    transform: translateY(50px);
+}
+span{
+    color: white;
+    position: absolute;
+    top: 15px;
+    left:75px;
+    z-index: 1;
+}
+.btn-2:hover span{
+    color: #0e83cd;
+} 
+.btn-3{
+    width: 180px;
+    height: 50px;
+    cursor: pointer;
+    position: relative;
+    background:none;
+    border: none;
+    outline: 3px solid white;
+    overflow: hidden;
+}
+.button3{
+    position: absolute;
+    top: 0;
+    left: -100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    transition: transform 0.5s ease;
+}
+.btn-2:hover .button3{
+    transform: translateX(180px);
+}
+.btn-4{
+    width: 180px;
+    height: 50px;
+    cursor: pointer;
+    position: relative;
+    background:none;
+    border: none;
+    outline: 3px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.button4{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 0;
+    height: 100%;
+    background-color: white;
+    transition: 0.2s ease;
+}
+.btn-4:hover .button4{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.btn-4:hover span{
+    color: #0e83cd;
+} 
+.button6{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 0;
+    background-color: white;
+    transition: 0.2s ease;
+}
+.btn-4:hover .button6{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button5{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 0;
+    background-color: white;
+    overflow: hidden;
+    transition: 0.2s ease;
+}
+.btn-4:hover .button5{
+    width: 90%;
+    height: 210%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotateZ(45deg);
+}
